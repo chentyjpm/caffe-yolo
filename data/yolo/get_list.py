@@ -7,7 +7,7 @@ test07_jpeg_list = []
 test07_xml_list = []
 test12_jpeg_list = []
 
-for name in ["VOC2007", "VOC2012"]:
+for name in ["VOC2007"]:
   voc_dir = os.path.join("VOCdevkit", name)
   txt_fold = os.path.join(voc_dir, "ImageSets/Main")
   jpeg_fold = os.path.join(voc_dir, "JPEGImages")
